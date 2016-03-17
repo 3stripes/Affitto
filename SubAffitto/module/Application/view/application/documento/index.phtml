@@ -1,0 +1,70 @@
+<br>
+<form class="form-inline">
+    <div class="form-group col-sm-9 ">
+        <h2>Lista documenti</h2>
+    </div>
+    <div class="col-sm-3"></div>
+    <a href="<?=$this->url('documento/create', ['action' => 'create']);?>" type="button" class="btn btn-info"><i class="glyphicon glyphicon-new-window"></i> Carica nuovo documento</a>
+
+</form>
+<br>
+
+<table class="table text-center">
+    <thead>
+    <tr>
+        <th class="text-center">ID</th>
+        <th class="text-center">Nome documento</th>
+        <th class="text-center">Categoria</th>
+        <th class="text-center">Data caricamento</th>
+        <th class="text-center">Data ultima modifica</th>
+        <th class="text-center">Azioni</th>
+    </tr>
+    </thead>
+    <tbody>
+    <?php foreach ($this->paginator as $documento)  : ?>
+        <?php /** @var \Application\Entity\Documento $documento */ ?>
+        <tr>
+            <td class="text-center"><b><?php echo $documento->getId(); ?></b></td>
+            <td class="text-center"><b><?php echo $documento->getTitolo(); ?></b></td>
+            <td class="text-center"><b><?php echo $documento->getCategoria()->getNome() ?></b></td>
+            <?php
+            /** @var DateTime $dataCreate */
+            $dataCreate = $documento->getDateCreate(); ?>
+            <td><b>
+                <?php echo $dataCreate->format('d-m-Y'); ?>
+                <h6></h6>
+                <?php echo $dataCreate->format('H:i:s'); ?>
+                    </b>
+
+            </td>
+
+            <?php
+            /** @var DateTime $dataModified */
+            $dataModified = $documento->getDataModified(); ?>
+            <td><b>
+                <?php echo $dataModified->format('d-m-Y'); ?>
+                <h6></h6>
+                <?php echo $dataModified->format('H:i:s'); ?>
+                    </b>
+            </td>
+
+            <td>
+                <a href="<?=$this->url('documento/id/download', ['action' => 'download', 'id' => $documento->getId()]);?>" type="button" class="btn btn-success"><i class="glyphicon glyphicon-download"></i> Download</a>
+                <a href="<?=$this->url('documento/id/edit', ['action' => 'edit', 'id' => $documento->getId()]);?>" type="button" class="btn btn-primary"><i class="glyphicon glyphicon-edit"></i> Modifica</a>
+                <a href="<?=$this->url('documento/id/delete', ['action' => 'delete', 'id' => $documento->getId()]);?>" type="button" class="btn btn-danger"><i class="glyphicon glyphicon-trash"></i> Elimina</a>
+            </td>
+        </tr>
+    <?php endforeach; ?>
+    </tbody>
+</table>
+
+<?php echo $this->paginationControl(
+    $this->paginator,
+    'sliding',
+    'partial/paginator.phtml'
+); ?>
+
+
+
+
+

@@ -1,0 +1,95 @@
+<br>
+<div class=row>
+    <form class="form-inline">
+        <div class="form-group col-sm-9 ">
+            <h2>News</h2>
+        </div>
+        <div class="col-sm-3"></div>
+    </form>
+
+    <div class="col-sm-9">
+        <table class="table text-center">
+            <thead>
+
+            <tr>
+                <th class="text-center">ID</th>
+                <th class="text-center"> Titolo news</th>
+                <th class="text-center">Data inserimento</th>
+                <th class="text-center">Azioni</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <?php foreach ($this->paginator as $news)  : ?>
+                <?php /** @var \Application\Entity\News $news */ ?>
+
+                <tr>
+                    <td><b>
+                        <?php echo $news->getId(); ?>
+                            </b>
+                    </td>
+                    <td><b>
+                        <?php echo $news->getTitolo(); ?>
+                            </b>
+                    </td>
+                    <?php
+                    /** @var DateTime $dataCreate */
+                    $dataCreate = $news->getDateCreate(); ?>
+                    <td><b>
+                        <?php echo $dataCreate->format('d-m-Y'); ?>
+
+                        <?php echo $dataCreate->format('H:i:s'); ?>
+                            </b>
+                    </td>
+                    <td>
+                        <a href="<?= $this->url('news/id/view', ['action' => 'view', 'id' => $news->getId()]); ?>"
+                           type="button" class="btn btn-success"><i class="glyphicon glyphicon-search"></i>
+                            Visualizza</a>
+
+                        <button class="btn btn-danger elimina" corrispondenza="<?php echo $news->getId(); ?>"> Elimina</button>
+
+
+                    </td>
+                </tr>
+            <?php endforeach; ?>
+            </tbody>
+        </table>
+    </div>
+
+
+    <div class="col-sm-2">
+        <a href="<?= $this->url('news/create'); ?>"
+           type="button" class="btn btn-success"><i class="glyphicon glyphicon-new-window"></i>Aggiungi News</a>
+    </div>
+</div>
+<?php echo $this->paginationControl(
+    $this->paginator,
+    'sliding',
+    'partial/paginator.phtml'
+); ?>
+
+<script>
+    <?php /** @var \Application\Entity\News $news */ ?>
+
+    $('.visualizza').click(function () {
+        $id = $(this).attr("corrispondenza");
+        $.post("news/view",
+            {
+                id: $id
+            });
+    });
+
+
+    $('.elimina').click(function () {
+        console.log("ciao");
+        $numero = $(this).attr("corrispondenza");
+        $.post("news/delete",
+            {
+                id: $numero
+            },
+            function (data) {
+                location.reload();
+            });
+    });
+
+</script>

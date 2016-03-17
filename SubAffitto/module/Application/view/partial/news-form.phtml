@@ -1,0 +1,43 @@
+<?php $this->form->prepare(); ?>
+<?php echo $this->form()->openTag($this->form); ?>
+<?php $titolo = $this->form->get('titolo'); ?>
+<?php $btnSubmit = $this->form->get('submit'); ?>
+<?php $testo = $this->form->get('testo'); ?>
+
+<div class=row>
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+        <?php echo $this->formRow($titolo); ?>
+    </div>
+</div>
+
+<br>
+
+<div class=row>
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+        <?php echo $this->formRow($testo); ?>
+    </div>
+</div>
+<br>
+<div class=row>
+    <div class="col-sm-4"></div>
+
+        <?php echo $this->formRow($btnSubmit); ?>
+
+</div>
+<script>
+    CKEDITOR.replace( 'testo' );
+</script>
+
+
+<?php echo $this->headScript()->prependFile('//cdn.ckeditor.com/4.5.7/standard/ckeditor.js');?>
+<?php echo $this->headScript();?>
+
+
+<?php echo $this->form()->closeTag(); ?>
+
+
+
+
+

@@ -1,0 +1,23 @@
+<?php $this->form->prepare(); ?>
+
+<?php $nome = $this->form->get('nome'); ?>
+<?php $btnSubmit = $this->form->get('submit'); ?>
+
+
+<div class=row>
+    <?php echo $this->formRow($nome); ?>
+</div>
+
+<br>
+
+<div class=row>
+    <div class="col-sm-4"></div>
+    <?php echo $this->formRow($btnSubmit); ?>
+</div>
+
+
+
+
+
+
+

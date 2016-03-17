@@ -1,0 +1,53 @@
+<form class="form-inline">
+    <div class="row">
+        <div class="form-group col-sm-4">
+            <h2><?php echo $this->convenzione->getNome();?></h2>
+        </div>
+        <div class="form-group col-sm-4"></div>
+        <div class="form-group col-sm-4">
+            <br>
+            <h3>Elenco allegati</h3>
+        </div>
+
+    </div>
+
+    <br><br>
+    <div class="row">
+        <div class="form-group col-sm-4">
+            <textarea rows="10" cols="50" disabled><?php echo $this->convenzione->getNote();?> </textarea>
+        </div>
+        <div class="form-group col-sm-4"></div>
+        <div class="form-group col-sm-4">
+            <table class="table text-center">
+                <thead>
+                <tr>
+                    <th class="text-center">Allegato</th>
+                    <th class="text-center">Azioni</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <td><?php echo $this->convenzione->getNomeAllegati();?></td>
+                    <td> <a href="<?=$this->url('convenzione/id/download', ['action' => 'download', 'id' => $this->convenzione->getId()]);?>" type="button" class="btn btn-info"><i class="glyphicon glyphicon-download"></i>Scarica</a></td>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <br><br>
+    <div class="row">
+        <div class="form-group col-sm-4">
+           <p class="bg-primary"> <h4>Categoria : <?php echo $this->convenzione->getCategoria()->getNome();?></h4> </p>
+        </div>
+    </div>
+
+    <br>
+    <div class="row">
+        <div class="form-group col-sm-5"></div>
+        <div class="form-group col-sm-4">
+            <a href="<?= $this->url('convenzione', ['action' => 'index', 'id' => $this->convenzione->getId()]); ?>"
+               type="button" class="btn btn-success"><i class="glyphicon glyphicon-backward"></i> Torna alla lista</a>
+        </div>
+    </div>
+
+</form>

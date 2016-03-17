@@ -1,0 +1,36 @@
+<br>
+<form class="form-inline">
+    <div class="row">
+
+        <a href="<?= $this->url('news', ['action' => 'index']); ?>"
+           type="button" class="btn btn-success"><i class="glyphicon glyphicon-backward"></i> Torna alla lista</a>
+    </div>
+    <br>
+    <div class="row">
+        <div id="titleNews" class="col-sm-8">
+            <h1> <?php echo $this->news->getTitolo(); ?></h1>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div id="textNews" class="col-sm-8">
+            <?php /** @var \Application\Entity\News $news */ ?>
+            <?php echo $this->news->getTesto(); ?>
+        </div>
+        <div class="col-sm-1"></div>
+
+        <div id="dateNews" class="col-sm-3">
+            <?php /** @var DateTime $dataCreate */
+
+            $dataCreate = $news->getDateCreate(); ?>
+            <?php echo "creato in data: " . $dataCreate->format('d:m:Y'); ?>
+            <br>
+            <?php echo "alle ore: " . $dataCreate->format('H:i:s'); ?>
+
+
+        </div>
+    </div>
+
+</form>
+
+

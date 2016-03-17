@@ -1,0 +1,200 @@
+body{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-image:url('http://lh3.ggpht.com/ppJiWVyCok8tIysVLIs6to3QSkw8rUfVOsX3786IRZpiFqZ2gcUE35Ffgbt30LVuXrc')  ;
+    background-repeat : no-repeat;
+    background-position: bottom right;
+    background-attachment: fixed ;
+    background-size: 25%;
+}
+
+/*Main navigation bar*/
+.navbar {
+    background-color: #ff8d1f;
+}
+
+/*Intranet*/
+.navbar-brand {
+    color: white;
+    font-family:"MS Sans Serif4", Geneva, sans-serif;
+    font-style: normal;
+    font-size: 170%;
+
+}
+
+/*Components*/
+.nav-header{
+    color: white;
+    font-family: "MS Sans Serif4", Geneva, sans-serif;
+    font-style: normal;
+    font-size: 150%;
+
+}
+
+/*Submenu*/
+.dropdown-menu > li > a{
+    color: white;
+    background-color: #ff8d1f;
+    font-family: "MS Sans Serif4", Geneva, sans-serif;
+    font-style: normal;
+    font-size: 150%;
+    display : block;
+}
+
+
+/*Clicked*/
+.dropdown-toggle  {
+    color: white;
+    font-family: "MS Sans Serif4", Geneva, sans-serif;
+    font-style: normal;
+    font-size: 150%
+}
+
+/*Hover*/
+tr:hover{
+    background-color: #ffbf45;
+    color : white;
+
+}
+
+/*Orange border*/
+tr{
+    border-bottom-style : solid;
+    border-color :#ff8d1f;
+}
+
+
+/*Main list*/
+th{
+    background-color: #ff8d1f;
+    color: white;
+    font-size: 135%;
+}
+
+
+td > b{
+    font-size:125%;
+}
+
+/*Submenu hover*/
+.dropdown-toggle:active, .open .dropdown-toggle {
+    background: white !important;
+    color: #ff8d1f  !important;
+
+}
+
+/*Page the user is currently on*/
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    background-color:#ff8d1f!important;
+    color : white;
+}
+
+/*On-mouse hover*/
+ul.nav a:hover {
+    color: white !important;
+    background-color : #e34713!important;
+}
+
+/*Title*/
+h2{
+    color: #ff8d1f;
+    border-color : #ff8d1f;
+    position: relative;
+    bottom: 20px;
+}
+
+img{
+    width : 100px;
+}
+
+.navbar{
+    height : 10px;
+}
+
+.jumbotron{
+    background-color : #ff8d1f !important;
+    margin-top : 5%;
+}
+
+.jumbotron > h1{
+    text-align: center;
+    font-size: 500% !important;
+    color : white !important;
+}
+
+
+/*Submenu toggled*/
+.dropdown-toggle:active, .open .dropdown-toggle{
+    color: white !important;
+    background-color : #e34713!important;
+}
+
+.alert-success{
+    font-family: "MS Sans Serif4", Geneva, sans-serif;
+    font-style: normal;
+    font-size: 200%;
+}
+
+/*All submenu*/
+ul .dropdown-menu{
+    margin-top : 0;
+    top :97%;
+    padding : 0px;
+    vertical-align:center;
+}
+
+#creation{
+    margin-top :12%;
+    border-radius: 15px 50px 30px 5px;
+    border-style : solid;
+    border-color : #ff8d1f;
+    padding: 20px;
+    width: 90%;
+    height: 50%;
+}
+#creation2{
+    margin-top :5%;
+    border-radius: 15px 50px 30px 5px;
+    border-style : solid;
+    border-color : #ff8d1f;
+    padding: 20px;
+    width: 80%;
+    height: 50%;
+}
+
+#textNews {
+    word-wrap: break-word;
+    border: 5px solid rgb(255, 141, 31);
+    padding: 20px;
+    background-color: rgba(255, 199, 39, 0.69);
+    border-radius: 15px 50px;
+    width: 65%;
+    font-family: "MS Sans Serif4", Geneva, sans-serif;
+    font-style: normal;
+    font-size: 150%;
+
+}
+
+#titleNews {
+    word-wrap: break-word;
+    font-family: "MS Sans Serif4", Geneva, sans-serif;
+    font-style: normal;
+    font-size: 250%;
+    color :  #ff8d1f;
+    border-bottom-style : solid;
+    border-color :#ff8d1f;
+}
+
+#dateNews {
+    word-wrap: break-word;
+    font-family: "MS Sans Serif4", Geneva, sans-serif;
+    font-style: normal;
+    font-size: 150%;
+    border-radius: 15px 50px;
+    padding : 20px;
+    color :white;
+    background-color :#ff8d1f;
+    border-color : transparent;
+    border-style : solid;
+
+}

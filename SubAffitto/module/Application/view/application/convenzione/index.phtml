@@ -1,0 +1,63 @@
+<br>
+<form class="form-inline">
+    <div class="form-group col-sm-9">
+        <h2>Lista Convenzioni</h2>
+    </div>
+    <div class="col-sm-3"></div>
+    <a href="<?= $this->url('convenzione/create', ['action' => 'create']); ?>" type="button" class="btn btn-info"><i
+            class="glyphicon glyphicon-new-window"></i> Crea nuova convenzione</a>
+</form>
+<br>
+
+<table class="table  text-center">
+    <thead>
+    <tr>
+        <th class="text-center">ID</th>
+        <th class="text-center">Nome convenzione</th>
+        <th class="text-center">Categoria</th>
+        <th class="text-center">Data caricamento documento</th>
+        <th class="text-center">Data ultima modifica</th>
+        <th class="text-center">Azioni</th>
+    </tr>
+    </thead>
+    <tbody>
+    <?php foreach ($this->paginator as $convenzione)  : ?>
+        <?php /** @var \Application\Entity\Convenzione $convenzione */ ?>
+        <tr>
+            <td class="text-center"><b><?php echo $convenzione->getId(); ?></b></td>
+            <td class="text-center"><b><?php echo $convenzione->getNome(); ?></b></td>
+            <td class="text-center"><b><?php echo $convenzione->getCategoria()->getNome(); ?></b></td>
+            <?php
+            /** @var DateTime $dataCreate */
+            $dataCreate = $convenzione->getDateCreate(); ?>
+            <td><?php echo $dataCreate->format('d-m-Y'); ?>
+                <h6></h6>
+                <?php echo $dataCreate->format('H:i:s'); ?>
+            </td>
+
+            <?php
+            /** @var DateTime $dataModified */
+            $dataModified = $convenzione->getDataModified(); ?>
+            <td><?php echo $dataModified->format('d-m-Y'); ?>
+                <h6></h6>
+                <?php echo $dataModified->format('H:i:s'); ?>
+            </td>
+
+            <td>
+                <a href="<?= $this->url('convenzione/id/view', ['action' => 'view', 'id' => $convenzione->getId()]); ?>"
+                   type="button" class="btn btn-success"><i class="glyphicon glyphicon-search"></i> Visualizza</a>
+                <a href="<?= $this->url('convenzione/id/edit', ['action' => 'edit', 'id' => $convenzione->getId()]); ?>"
+                   type="button" class="btn btn-primary"><i class="glyphicon glyphicon-edit"></i> Modifica</a>
+                <a href="<?= $this->url('convenzione/id/delete', ['action' => 'delete', 'id' => $convenzione->getId()]); ?>"
+                   type="button" class="btn btn-danger"><i class="glyphicon glyphicon-trash"></i> Elimina</a>
+            </td>
+        </tr>
+    <?php endforeach; ?>
+    </tbody>
+</table>
+
+<?php echo $this->paginationControl(
+    $this->paginator,
+    'sliding',
+    'partial/paginator.phtml'
+); ?>

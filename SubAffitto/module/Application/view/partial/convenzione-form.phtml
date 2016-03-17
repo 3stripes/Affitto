@@ -1,0 +1,53 @@
+<?php $this->form->prepare(); ?>
+<?php echo $this->form()->openTag($this->form); ?>
+
+<?php $titolo = $this->form->get('nome'); ?>
+<?php $note = $this->form->get('note'); ?>
+<?php $filePath = $this->form->get('filePath'); ?>
+<?php $argomento = $this->form->get('select'); ?>
+<?php $btnSubmit = $this->form->get('submit'); ?>
+<div id="creation2">
+    <div class=row>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-3">
+            <?php echo $this->formRow($titolo); ?>
+        </div>
+        <div class="col-sm-2 "></div>
+        <div class="col-sm-4">
+            <?php echo $this->formRow($filePath); ?>
+        </div>
+
+
+    </div>
+    <br>
+    <div class=row>
+        <div class="col-sm-5 text-center">
+            <?php echo $this->formRow($note); ?>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-4">
+            <?php echo $this->formRow($argomento); ?>
+        </div>
+
+
+    </div>
+
+
+    <br>
+    <br>
+    <div class=row>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-8 text-center">
+            <?php echo $this->formRow($btnSubmit); ?>
+        </div>
+    </div>
+</div>
+<br>
+
+<?php echo $this->form()->closeTag(); ?>
+
+
+
+
+
+

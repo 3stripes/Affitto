@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d6ffcae-a5c5-45c0-b660-786ffd8f00ac" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/public/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/public/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/public/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/public/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/public/img/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/public/img/zf2-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/config/application.config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/config/autoload/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/config/autoload/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/config/autoload/global.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/config/autoload/local.php.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/config/autoload/zenddevelopertools.local.php.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/data/DoctrineORMModule/Proxy/__CG__ApplicationEntityCategory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/data/DoctrineORMModule/Proxy/__CG__ApplicationEntityCategoryDocumenti.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/data/allegati_convenzioni/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/data/cache/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/data/database/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/data/documenti/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/init_autoloader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/intranet.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/Module.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/config/module.config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/src/Application/Controller/CategoryConvenzioneController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/src/Application/Controller/CategoryDocumentoController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/src/Application/Controller/ConvenzioneController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/src/Application/Controller/DocumentoController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/src/Application/Controller/IndexController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/src/Application/Controller/NewsController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/src/Application/Entity/Category.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/src/Application/Entity/CategoryDocumenti.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/src/Application/Entity/Convenzione.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/src/Application/Entity/Documento.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/src/Application/Entity/News.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/src/Application/Form/CategoryCreationForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/src/Application/Form/ConvenzioneCreationForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/src/Application/Form/DocumentoCreationForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/src/Application/Form/NewsCreationForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/tests/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/application/category-convenzione/index.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/application/category-documento/index.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/application/convenzione/create.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/application/convenzione/edit.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/application/convenzione/index.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/application/convenzione/view.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/application/documento/create.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/application/documento/edit.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/application/documento/index.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/application/index/index.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/application/news/create.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/application/news/index.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/application/news/view.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/error/404.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/error/index.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/layout/layout.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/partial/category-form.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/partial/convenzione-form.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/partial/documento-form.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/partial/flashmessages.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/partial/navigation.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/partial/news-form.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/module/Application/view/partial/paginator.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/public/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/public/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/public/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/public/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/public/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/public/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/public/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/public/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/public/js/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/public/js/html5shiv.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/public/js/jquery-1.11.1.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/public/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/public/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubAffitto/public/js/respond.min.js" />
+    </list>
+    <ignored path="Affitto.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Affitto" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SubAffitto/data/cache/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.05625">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Affitto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Affitto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Affitto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Affitto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Affitto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubAffitto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Affitto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Affitto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubAffitto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Affitto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Affitto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubAffitto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projects3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d6ffcae-a5c5-45c0-b660-786ffd8f00ac" name="Default" comment="" />
+      <created>1458220860376</created>
+      <option name="number" value="Default" />
+      <updated>1458220860376</updated>
+      <workItem from="1458220862120" duration="130000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="130000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SubAffitto/data/cache/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05625">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
